@@ -9,6 +9,7 @@ The source for these projects lives in private repositories. This repo is the pu
 | [Apollo](apollo/) | A harness that supervises agent loops from many engines as one team | In development: contracts written and independently reviewed, core in Rust, UI in TypeScript/React |
 | [Athena](athena/) | An adaptive learning agent that follows a learner and tests its own output | Version 0 built and tested; to be rewritten in Rust once its host is ready |
 | [Reliability framework](governance/) | The rules that keep autonomous agents accountable and their work auditable | In daily use across the agents that build these projects |
+| [Persona vectors](persona-vectors/) | Style traits as activation directions, and an attempt to monitor a closed model through an open one | Complete: style traits found as activation directions; the cross-model monitoring result did not survive recheck |
 | [Game agents](game-agents/) | Tooling and measurement for agents that mod and play games | Control benchmark complete (best configuration 4.3x faster than a fresh agent); mod workflow and vision-based play in progress |
 | [Perseus](perseus/) | A learned generator for production-grade 3D hair geometry | Research and development: data and evaluation foundation built, learning trials ongoing |
 | [Sketch and Juno](sketch-juno/) | Creative agents for structuring stories and writing branching dialogue | Design approved; app under construction |

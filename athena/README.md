@@ -25,7 +25,7 @@ The design question: should one local model do everything, or should a stronger 
 
 Round 2 used one more judge check than round 1, so the question rows are not strictly comparable across rounds. Within a round, both designs were judged together.
 
-The stronger writer produced fully supported lessons and mostly sound questions. The local writer's lessons were mostly right, but most of its questions were not. A model that checks a draft it did not write catches mistakes the writer cannot see in its own work. The decision that followed: a stronger model writes, a local model checks and grades, and the learner's answers never leave their machine.
+The stronger writer produced fully supported lessons and mostly sound questions. The local writer's lessons were mostly right, but most of its questions were not. A model that checks a draft it did not write catches mistakes the writer cannot see in its own work. The design that follows has a weaker local model checking a stronger writer, so how much a weaker checker can be trusted is a measured question here, not an assumption. The decision that followed: a stronger model writes, a local model checks and grades, and the learner's answers never leave their machine.
 
 The first round also exposed two faults in the built-in checks. The blind pass had been told to answer using only what the passages state, so it refused every question that needed working out. And nothing caught a grading criterion that the question's own wording already answered. Both were fixed and re-measured on fresh drafts. The checker remains usable, not strong: in round 2, a few unsound questions still passed it and some sound ones were refused.
 
@@ -39,7 +39,3 @@ The first round also exposed two faults in the built-in checks. The blind pass h
 ## Not in version 0
 
 Reaching beyond the loaded sources into adjacent material to widen a learner's understanding (an intended feature), hints, misconception notes, charts and concept maps as pictures, and generated or fetched images.
-
-## What I did
-
-I designed Athena, directed the build, ran the evaluations and made the decisions the results supported.
